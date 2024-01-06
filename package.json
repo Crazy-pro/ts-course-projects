@@ -1,0 +1,13 @@
+{
+  "name": "ts-course-projects",
+  "version": "1.0.0",
+  "description": "TS Course Projects are a set of simple demo projects from 'Understanding TypeScript Course' written to learn and understand the concept and all the features of the TypeScript.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Klimchuk",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
