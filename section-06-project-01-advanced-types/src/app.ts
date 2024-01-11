@@ -38,6 +38,26 @@ function add(a: Combinable, b: Combinable) {
 const result = add('Alex', ' Klimchuk')
 result.split(' ')
 
+
+const fetchedUserData = {
+  id: 'u1',
+  name: 'Alex',
+  job: {
+    title: 'CEO',
+    description: 'My own company'
+  }
+}
+
+console.log(fetchedUserData?.job?.title)
+
+// const userInput = '' // or null or undefined
+// const storedData = userInput || 'DEFAULT'
+
+const userInput = undefined // null or undefined
+const storedData = userInput ?? 'DEFAULT'
+
+console.log(storedData)
+
 type UnknownEmployee = Employee | Admin
 
 const printEmployeeInfo = (employee: UnknownEmployee) => {
