@@ -81,8 +81,8 @@ interface CourseGoal {
 }
 
 function createCourseGoal(
-  title: string
-  description: string
+  title: string,
+  description: string,
   date: Date
 ): CourseGoal {
   let courseGoal: Partial<CourseGoal> = {}
