@@ -40,7 +40,7 @@ function extractAndConvert<T extends object, U extends keyof T>(obj: T, key: U) 
 
 extractAndConvert({ name: 'Alex' }, 'name')
 
-class DataStorage<T extends string | number | boolean> {
+class DataStorage<T extends string | number | boolean | object> {
   private data: T[] = []
 
   addItem(item: T) {
@@ -74,3 +74,25 @@ objectStorage.removeItem(alex)
 
 console.log(objectStorage.getItems())
 
+interface CourseGoal {
+  title: string
+  description: string
+  completeUntil: Date
+}
+
+function createCourseGoal(
+  title: string
+  description: string
+  date: Date
+): CourseGoal {
+  let courseGoal: Partial<CourseGoal> = {}
+  courseGoal.title = title
+  courseGoal.description = description
+  courseGoal.completeUntil = date
+  removeEventListener
+  return courseGoal as CourseGoal
+}
+
+const names: Readonly<string[]> = ['Max', 'Alex']
+// names.push('Ann')
+// names.pop()
