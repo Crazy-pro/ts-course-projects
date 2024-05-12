@@ -1,7 +1,7 @@
 ### TS Course Projects
 TS Course Projects are a set of simple demo projects from 'Understanding TypeScript Course' written to learn and understand the concept and all the features of the TypeScript.
 
-
+ 
  
 ### How to start:
 - Install node_modules:
