@@ -18,7 +18,7 @@ TS Course Projects are a set of simple demo projects from 'Understanding TypeScr
 ```
 - Just open any index.html file in browser.
 
-
+ 
 
 ### Technologies:
 - Programming languages: TypeScript, JavaScript;
